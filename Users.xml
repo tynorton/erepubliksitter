@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Users>
+  <User>
+    <CitizenName>Name1</CitizenName>
+    <Password>pa$$</Password>
+  </User>
+  <User>
+    <CitizenName>Name2</CitizenName>
+    <Password>pa$$</Password>
+  </User>
+</Users>

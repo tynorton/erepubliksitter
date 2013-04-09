@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="title" content="Erepublik" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content="The New World" />
+<meta name="keywords" content="" />
+<meta name="language" content="en" />
+<title>Erepublik</title>
+
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link rel="stylesheet" href="/css/global.css" type="text/css" />
+<link rel="stylesheet" href="/css/happybday.css" type="text/css" />
+<link rel="stylesheet" href="/css/sIFR-screen.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/sIFR-print.css" type="text/css" media="print" />
+
+	<script type="text/javascript" src="/js/global.js"></script>
+<script type="text/javascript" charset="utf-8">
+		window.confirmation = {
+		ok: 'ok',
+		yes: 'yes',
+		no: 'no'
+	};
+</script>
+<script type="text/javascript" charset="utf-8">
+		if (top.location != location) {
+		top.location.href = document.location.href ;
+	}
+</script>
+
+
+<script type="text/javascript" charset="utf-8">
+	var citizen_regionList_select = "Select your eRepublik region.";
+	var citizen_regionList_no_region = "The country selected does not have any regions.";
+	var citizen_items_confirm = "Are you sure you want to throw away this item? Maybe you want to donate it to someone else.";
+	var citizen_friends_prev = "Prev";
+	var citizen_friends_next = "Next";
+	var company_browsers_quality_level = "Quality Level";
+	var election_list_select_party = "Please select a party";
+	var scriptFeeds_countryAccounts_choose = "Choose";
+	var scriptFeeds_proposedCongressman_search = "Search";
+	var scriptFeeds_proposedCongressman_close = "Close";
+	var scriptFeeds_proposedCongressman_replace = "Replace";
+	var scriptFeeds_proposedCongressman_close = "Close";
+	var scriptFeeds_proposedCongressman_presentation = "Presentation";
+	var scriptFeeds_proposedCongressman_no_presentation = "No presentation";
+	var scriptFeeds_regionList_select = "Select your eRepublik region";
+	var register_region_list_belongs_to = "annexed by ";
+</script><script type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="/js/easyTooltip.js"></script>
+<script type="text/javascript" src="/js/myPlaces/tooltip.js"></script>
+<script type="text/javascript" src="/js/jquery.impromptu.1.5.js"></script>
+
+<script type="text/javascript" src="/js/confirmation.js"></script>
+<script type="text/javascript" src="/js/clock.js"></script>
+<script type="text/javascript" src="/js/search/clear.js"></script>
+<script type="text/javascript" src="/js/homepage/swfobject.js"></script>
+<script type="text/javascript" src="/js/thickbox.js"></script>
+<script type="text/javascript" src="/js/advisor/advisor.js"></script>
+<script type="text/javascript" src="/js/prototype.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/thickbox.css" />
+</head>
+
+<body id="places">
+			
+	<div id="container">
+	
+											<div id="header" >
+	<div id="logo"><a href="/en">&nbsp;</a></div>
+<div class="advisor">
+		<div id="advisor_ajax"></div>
+	<input type="hidden" name="advisor_url" id="advisor_url" value="/en/advisor_ajax" />	<input type="hidden" name="module_name" id="module_name" value="myPlaces" />	<input type="hidden" name="action_name" id="action_name" value="army" />			
+				
+		<!-- div id="trivia-load" style="display:none;"><span class="regular">Loading</span></div -->
+				<div id="hinfo">
+
+		<div id="clock" >
+			<span id="live_time" class="time"></span>
+			<span class="date">May 04</span>
+			<span class="eday">Day <strong>531</strong> of the New World			</span>
+		</div>
+				<div id="searchholder"></div>
+
+			</div>
+</div>
+</div>
+												<div id="menu">
+					<ul id="nav">
+	<li id="menu1"><a href="/en" ><span>Home</span></a></li>
+	<li id="menu2">
+		<a href="#"><span>My places</span></a>
+		<ul>
+
+			<li><a href="/en/citizen/profile/1384004">Profile</a></li>
+			<li><a href="/en/my-places/company/1384004">Company</a></li>
+						<li><a href="/en/my-places/army">Army</a></li>
+			<li><a href="/en/my-places/party">Party</a></li>
+						<li><a href="/en/my-places/newspaper">Newspaper</a></li>
+			<li><a href="/en/USA/country-administration">Country administration</a></li>
+
+									<li><a href="/en/my-places/organizations">Organizations</a></li>
+					</ul>
+	</li>
+	<li id="menu3">
+		<a href="#"><span>Markets</span></a>
+		<ul>
+			<li><a href="/en/market/country-0-industry-0-quality-0">Marketplace</a></li>
+
+			<li><a href="/en/exchange">Monetary market</a></li>
+			<li><a href="/en/human-resources/country-0-domain-all-skill-0">Job market</a></li>
+			<li><a href="/en/companies-for-sale/country-0-industry-0">Companies for sale</a></li>
+			<li><a href="/en/get-gold/gold">Get gold & extras</a></li>
+					</ul>
+	</li>
+
+	<li id="menu4">
+		<a href="#"><span>Info</span></a>
+		<ul>
+						<li><a href="/en/rankings/citizens" rel="nofollow">Rankings</a></li>
+			<li><a href="/en/country/USA" rel="nofollow">Social stats</a></li>
+			<li><a href="/en/country/economy/USA" rel="nofollow">Economic stats</a></li>
+			<li><a href="/en/country/politics/USA" rel="nofollow">Political stats</a></li>
+
+			<li><a href="/en/country/military/USA" rel="nofollow">Military stats</a></li>
+                        <li><a href="/en/career-path" rel="nofollow">Career path</a></li>
+            		</ul>
+	</li>
+	<li id="menu5">
+		<a href="#"><span>Community</span></a>
+		<ul>
+
+						<li><a href="/en/invite-friends">Invite friends</a></li>
+						<li><a href="/en/elections/country-24-election-congress-date-2009-05/1">Elections</a></li>
+						<li><a href="/en/news">News</a></li>
+			<li><a href="/en/badges">Tools</a></li>
+			<li><a href="/en/forum">Forum</a></li>
+			<li><a href="http://wiki.erepublik.com/">Wiki</a></li>
+
+						<li><a href="http://blog.erepublik.com/">Blog</a></li>
+            <li><a href="http://shop.erepublik.com/">eRepublik Shop</a></li>
+		</ul>
+	</li>
+</ul>				</div>
+
+			
+					<div id="sidebar">
+				<div id="miniprofile">
+
+	<div class="start"></div>
+	<div class="core">
+		<div class="avatarholder">
+			<a href="/en/citizen/profile/1384004"><img alt="Amalthea Stevens" width="55" height="55" src="http://static.erepublik.com/uploads/avatars/Citizens/2009/03/26/3525655bf15b84b7a0d7e4b26da73469_55x55.jpg" /></a>							<div class="xprank">12</div>
+					</div>
+
+		<div class="nameholder">
+			<a href="/en/citizen/profile/1384004">Amalthea Stevens</a>		</div>
+
+		<div class="flagholder">
+			<a href="/en/country/USA"><img title="USA" alt="USA" src="/images/flags/L/USA.gif" /></a>		</div>
+		
+													<div id="wellnessmeter" class="woman ">
+					<div class="meter sm" style="height: 4.48%;"></div>
+				</div>
+				<div id="wellnessvalue">95.52</div>
+			                                		<div id="accountdisplay">
+
+        	<div class="item"><img src="/images/parts/icon-gold.gif" style="margin-top: -2px;" alt="Gold" title="Gold" />0</div>	
+        	<div class="item">
+        		<img class="flag" alt="USD" title="USD" src="/images/flags/S/USA.gif" />	
+        		26        	</div>		
+		</div>
+		<div id="maildisplay">
+			<div class="item" title="0 new messages">
+											<a class="msg" href="/en/messages/inbox/1">&nbsp;</a>							<a class="smalldotted" href="/en/messages/inbox/1">0</a>			</div>
+
+			<div class="item" title="0 new messages">
+							<a class="alert" href="/en/messages/alerts/1">&nbsp;</a>							<a class="smalldotted" href="/en/messages/alerts/1">0</a>
+			</div>
+			<div class="item" style="width: auto" title="new events">
+							<a class="subs" href="/en/messages/subscribes/1">&nbsp;</a>			
+			</div>
+		</div>
+		<a class="logout" href="/en/logout">logout</a>	</div>
+
+	<div class="end"></div>
+</div>
+			</div>
+			<div id="content">
+				<h1>My places > Army</h1>
+<div class="indent invalidicon">
+	<h2 class="special goleft padded">
+					You have not trained today			</h2>
+
+	<a class="wikiicon goright padded" title="Open Wiki page" href="http://wiki.erepublik.com/index.php/Army">Find out more</a>
+			<p></p>
+		<form method="post" action="/en/my-places/train"><input type="hidden" id="_token" name="_token" value="9eb8c3da2ef0764495b053ed8ee07bae" /><span class="vround-btn-start" title=""><span class="vround-btn-end"><a href="#" onclick="javascript: this.parentNode.parentNode.parentNode.submit(); return false;"  class="vround-btn-core">
+			Train</a></span></span>
+		</form>		
+	
+
+	<table width="631px" border="0" align="left" cellpadding="0" cellspacing="0" class="offers"><tr>
+		<td valign="middle" nowrap="nowrap" width="435px">Strength</td>
+		<td valign="middle" nowrap="nowrap" width="166px"><div class="entity"><span class="display-strenght-start"><span class="display-strenght-end"><span class="display-strenght-core tooltip" title="Training improves your strength, thus increasing basic damage.">4.64</span></span></span></div>
+
+		</td>
+	</tr><tr>
+		<td valign="middle" nowrap="nowrap">Military rank</td>
+		<td valign="middle">
+				<img alt="Private" class="icon tooltip" title="Proving valor on the batlefield by damaging enemies will increase the military rank." src="/images/parts/icon_position_military_private.gif" /> 
+			<strong>
+				Private			</strong>
+		</td>
+
+	</tr><tr>
+		<td valign="middle" nowrap="nowrap">Military achievements</td>
+		<td valign="middle">
+			<span class="hero tooltip" title="Citizens are rewarded for every battle in which they have scored the highest total damage.">
+				0			</span> <strong class="fakevalign">Hero</strong></td>
+	</tr></table>
+
+	<span class="vround-btn-start rightpadded" title=""><span class="vround-btn-end"><a class="vround-btn-core" href="/en/wars/1">Show active wars</a></span></span>
+
+	</div>	        </div>
+			<div id="promo">
+				<!--a href="http://wiki.erepublik.com/index.php/Tutorial" target="_blank"><img alt="10 steps" src="/images/help-banner.gif" /></a-->
+<a href="http://www.erepublik.com/en/get-gold#storage" target="_blank"><img alt="Extra Storage" src="/images/storage-banner.jpg" /></a>
+			</div>
+				
+    	<div id="footer" >
+		<p>
+
+				<a href="http://wiki.erepublik.com" target="_blank">Wiki</a> &nbsp; | &nbsp;
+		<a href="http://blog.erepublik.com" target="_blank">Blog</a> &nbsp; | &nbsp;
+        <a href="http://shop.erepublik.com" target="_blank">Shop</a> &nbsp; | &nbsp;
+
+		<a rel="nofollow" href="/en/press">Press</a> &nbsp; | &nbsp;
+		<a rel="nofollow" href="/en/tickets">Contact</a> &nbsp; | &nbsp;
+			<a rel="nofollow" href="http://jobs.erepublik.com">Jobs</a> &nbsp; | &nbsp;
+
+		<a rel="nofollow" href="/en/terms-and-conditions" rel="nofollow">Terms of Service</a> &nbsp; | &nbsp;
+		<a rel="nofollow" href="/en/privacy-policy" rel="nofollow">Privacy</a> &nbsp; | &nbsp;
+		<a href="https://edge.affiliateshop.com/account/affsignup?WID=1898" rel="nofollow" target="_blank">Affiliates</a>
+			</p>
+
+		<p>Copyright &copy; 2007-2009&nbsp;eRepublik</p>
+</div>
+
+				
+
+
+<script type="text/javascript">
+$j(document).ready(function() {
+	var search_pkyk = '<form id="search" method="post" action="/en/search/1"><input type="hidden" id="_token" name="_token" value="9eb8c3da2ef0764495b053ed8ee07bae" />';
+	search_pkyk = search_pkyk +'<input type="text" name="search" id="search_field" value="Search citizen" class="field" onclick="clear_search_field(&quot;search_field&quot;);" />';
+	search_pkyk = search_pkyk +'<input type="image" name="commit" src="/images/parts/btn-search.gif" class="submit" />';
+	search_pkyk = search_pkyk +'</form>';
+	$j('div#searchholder').html(search_pkyk);
+});
+</script>			</div>
+<script type="text/javascript" language="Javascript" charset="utf-8">
+	live_clock("live_time",00,5);
+</script>
+
+		<script type="text/javascript">
+		var pkyk = 0;
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+
+	<script type="text/javascript">
+		var pkyk = 0;
+		var pageTracker = _gat._getTracker("UA-2001550-1");
+		pageTracker._trackPageview();
+
+		</script>
+	
+
+						</body>
+</html>

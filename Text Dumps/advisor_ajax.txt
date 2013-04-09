@@ -1,0 +1,45 @@
+﻿You should work today:
+<div id="advisor" class="big">
+	<div id="advContent">		
+					<div class="skip_btn">
+				<a href="#" onclick="javascript:getAdvisor('no_thanks');return false;" id="no_thanks">Skip</a>
+			</div>
+				<p><img src="/images/advisor/icon-adv-work.png"><strong><a href="/en/company/mountain-weapons-187414">You should work today</a></strong><br />It will help you increase both your skill and savings.</p>
+	</div>
+	<div id="advHead">
+
+		<a href="#" class="downUp" onclick="javascript:getAdvisor('minimize');return false;"></a>
+				<a href="/en/advisor_tour/index/home/0?width=540&height=670&title=off" id="info_page" class="info thickbox"></a>
+			</div>
+</div><input type="hidden" name="has_info" id="has_info" value="1" /><input type="hidden" name="first_page_load" id="first_page_load" value="0" />
+
+You should train today:
+<div id="advisor" class="big">
+	<div id="advContent">		
+					<div class="skip_btn">
+				<a href="#" onclick="javascript:getAdvisor('no_thanks');return false;" id="no_thanks">Skip</a>
+			</div>
+				<p><img src="/images/advisor/icon_adv_train.png"><strong><a href="/en/my-places/army">You should train today</a></strong><br />Your strength can make you a hero on the battlefield.</p>
+	</div>
+	<div id="advHead">
+
+		<a href="#" class="downUp" onclick="javascript:getAdvisor('minimize');return false;"></a>
+				<a href="/en/advisor_tour/index/home/0?width=540&height=670&title=off" id="info_page" class="info thickbox"></a>
+			</div>
+</div><input type="hidden" name="has_info" id="has_info" value="1" /><input type="hidden" name="first_page_load" id="first_page_load" value="0" />
+
+You should buy food:
+<div id="advisor" class="big">
+	<div id="advContent">		
+					<div class="skip_btn">
+				<a href="#" onclick="javascript:getAdvisor('no_thanks');return false;" id="no_thanks">Skip</a>
+			</div>
+				<p><img src="/images/advisor/icon_adv_idle.png"><strong></strong>Now you can visit the <a href="/en/forum">forum</a> or read the  <a href="/en/news/rated/1/24">news</a> to stay in touch with what happens on eRepublik.</p>
+
+	</div>
+	<div id="advHead">
+		<a href="#" class="downUp" onclick="javascript:getAdvisor('minimize');return false;"></a>
+				<a href="/en/advisor_tour/index/home/0?width=540&height=670&title=off" id="info_page" class="info thickbox"></a>
+			</div>
+</div><input type="hidden" name="has_info" id="has_info" value="1" /><input type="hidden" name="first_page_load" id="first_page_load" value="0" />
+
